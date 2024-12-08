@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ONEDRIVE\\Documents\\doancuoiky\\wpfdoan\\wpfdoan\\wpfdoan.csproj": {}
+    "C:\\Users\\LE KHANG\\OneDrive\\Tài liệu\\GitHub\\doancuoiky\\wpfdoan\\wpfdoan\\wpfdoan.csproj": {}
   },
   "projects": {
-    "C:\\ONEDRIVE\\Documents\\doancuoiky\\wpfdoan\\wpfdoan\\wpfdoan.csproj": {
+    "C:\\Users\\LE KHANG\\OneDrive\\Tài liệu\\GitHub\\doancuoiky\\wpfdoan\\wpfdoan\\wpfdoan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ONEDRIVE\\Documents\\doancuoiky\\wpfdoan\\wpfdoan\\wpfdoan.csproj",
+        "projectUniqueName": "C:\\Users\\LE KHANG\\OneDrive\\Tài liệu\\GitHub\\doancuoiky\\wpfdoan\\wpfdoan\\wpfdoan.csproj",
         "projectName": "wpfdoan",
-        "projectPath": "C:\\ONEDRIVE\\Documents\\doancuoiky\\wpfdoan\\wpfdoan\\wpfdoan.csproj",
-        "packagesPath": "C:\\Users\\TRAN HUU QUANG\\.nuget\\packages\\",
-        "outputPath": "C:\\ONEDRIVE\\Documents\\doancuoiky\\wpfdoan\\wpfdoan\\obj\\",
+        "projectPath": "C:\\Users\\LE KHANG\\OneDrive\\Tài liệu\\GitHub\\doancuoiky\\wpfdoan\\wpfdoan\\wpfdoan.csproj",
+        "packagesPath": "C:\\Users\\LE KHANG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LE KHANG\\OneDrive\\Tài liệu\\GitHub\\doancuoiky\\wpfdoan\\wpfdoan\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TRAN HUU QUANG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LE KHANG\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

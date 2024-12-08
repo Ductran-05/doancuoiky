@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("wpfdoan")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+344b287181f46a2b41d76412b1dc084f3082f3b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+217bb68c8f834d4b2cf771a46f12caaa095176c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("wpfdoan")]
 [assembly: System.Reflection.AssemblyTitleAttribute("wpfdoan")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
