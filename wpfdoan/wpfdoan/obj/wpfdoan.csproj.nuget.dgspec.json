@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ONEDRIVE\\Documents\\đồán\\wpfdoan\\wpfdoan\\wpfdoan.csproj": {}
+    "C:\\ONEDRIVE\\Documents\\doancuoiky\\wpfdoan\\wpfdoan\\wpfdoan.csproj": {}
   },
   "projects": {
-    "C:\\ONEDRIVE\\Documents\\đồán\\wpfdoan\\wpfdoan\\wpfdoan.csproj": {
+    "C:\\ONEDRIVE\\Documents\\doancuoiky\\wpfdoan\\wpfdoan\\wpfdoan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ONEDRIVE\\Documents\\đồán\\wpfdoan\\wpfdoan\\wpfdoan.csproj",
+        "projectUniqueName": "C:\\ONEDRIVE\\Documents\\doancuoiky\\wpfdoan\\wpfdoan\\wpfdoan.csproj",
         "projectName": "wpfdoan",
-        "projectPath": "C:\\ONEDRIVE\\Documents\\đồán\\wpfdoan\\wpfdoan\\wpfdoan.csproj",
+        "projectPath": "C:\\ONEDRIVE\\Documents\\doancuoiky\\wpfdoan\\wpfdoan\\wpfdoan.csproj",
         "packagesPath": "C:\\Users\\TRAN HUU QUANG\\.nuget\\packages\\",
-        "outputPath": "C:\\ONEDRIVE\\Documents\\đồán\\wpfdoan\\wpfdoan\\obj\\",
+        "outputPath": "C:\\ONEDRIVE\\Documents\\doancuoiky\\wpfdoan\\wpfdoan\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TRAN HUU QUANG\\AppData\\Roaming\\NuGet\\NuGet.Config",
