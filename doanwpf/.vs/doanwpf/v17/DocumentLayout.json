@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|solutionrelative:doanwpf\\sanpham.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|c:\\onedrive\\documents\\doancuoiky\\doanwpf\\doanwpf\\sanpham.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|solutionrelative:doanwpf\\sanpham.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|c:\\onedrive\\documents\\doancuoiky\\doanwpf\\doanwpf\\themsanpham.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|solutionrelative:doanwpf\\themsanpham.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|c:\\onedrive\\documents\\doancuoiky\\doanwpf\\doanwpf\\sanpham.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|solutionrelative:doanwpf\\sanpham.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|c:\\onedrive\\documents\\doancuoiky\\doanwpf\\doanwpf\\themsanpham.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|solutionrelative:doanwpf\\themsanpham.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|c:\\onedrive\\documents\\doancuoiky\\doanwpf\\doanwpf\\sanpham.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|solutionrelative:doanwpf\\sanpham.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|C:\\ONEDRIVE\\Documents\\doancuoiky\\doanwpf\\doanwpf\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -50,15 +54,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "sanpham.xaml.cs",
-              "DocumentMoniker": "C:\\ONEDRIVE\\Documents\\doancuoiky\\doanwpf\\doanwpf\\sanpham.xaml.cs",
-              "RelativeDocumentMoniker": "doanwpf\\sanpham.xaml.cs",
-              "ToolTip": "C:\\ONEDRIVE\\Documents\\doancuoiky\\doanwpf\\doanwpf\\sanpham.xaml.cs",
-              "RelativeToolTip": "doanwpf\\sanpham.xaml.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAMwCEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T07:42:38.895Z",
+              "DocumentIndex": 1,
+              "Title": "themsanpham.xaml",
+              "DocumentMoniker": "C:\\ONEDRIVE\\Documents\\doancuoiky\\doanwpf\\doanwpf\\themsanpham.xaml",
+              "RelativeDocumentMoniker": "doanwpf\\themsanpham.xaml",
+              "ToolTip": "C:\\ONEDRIVE\\Documents\\doancuoiky\\doanwpf\\doanwpf\\themsanpham.xaml",
+              "RelativeToolTip": "doanwpf\\themsanpham.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T15:12:07.72Z",
               "EditorCaption": ""
             },
             {
@@ -75,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\ONEDRIVE\\Documents\\doancuoiky\\doanwpf\\doanwpf\\App.xaml",
               "RelativeDocumentMoniker": "doanwpf\\App.xaml",
@@ -86,11 +89,6 @@
               "EditorCaption": ""
             }
           ]
-        },
-        {
-          "DockedWidth": 188,
-          "SelectedChildIndex": -1,
-          "Children": []
         }
       ]
     },
@@ -109,24 +107,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "sanpham.xaml",
               "DocumentMoniker": "C:\\ONEDRIVE\\Documents\\doancuoiky\\doanwpf\\doanwpf\\sanpham.xaml",
               "RelativeDocumentMoniker": "doanwpf\\sanpham.xaml",
               "ToolTip": "C:\\ONEDRIVE\\Documents\\doancuoiky\\doanwpf\\doanwpf\\sanpham.xaml",
               "RelativeToolTip": "doanwpf\\sanpham.xaml",
-              "ViewState": "AQIAADsAAAAAAAAAAAAjwEoAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-10T04:54:45.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "mainwindow.xaml",
               "DocumentMoniker": "C:\\ONEDRIVE\\Documents\\doancuoiky\\doanwpf\\doanwpf\\mainwindow.xaml",
               "RelativeDocumentMoniker": "doanwpf\\mainwindow.xaml",
@@ -135,6 +133,19 @@
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-10T04:51:47.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "themsanpham.xaml",
+              "DocumentMoniker": "C:\\ONEDRIVE\\Documents\\doancuoiky\\doanwpf\\doanwpf\\themsanpham.xaml",
+              "RelativeDocumentMoniker": "doanwpf\\themsanpham.xaml",
+              "ToolTip": "C:\\ONEDRIVE\\Documents\\doancuoiky\\doanwpf\\doanwpf\\themsanpham.xaml",
+              "RelativeToolTip": "doanwpf\\themsanpham.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T15:12:35.877Z",
               "EditorCaption": ""
             }
           ]

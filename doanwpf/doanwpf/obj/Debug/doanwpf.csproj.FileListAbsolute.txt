@@ -52,3 +52,5 @@ C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.csproj.CoreCo
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.csproj.Up2Date
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.exe
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.pdb
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\themsanpham.g.cs
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\themsanpham.baml

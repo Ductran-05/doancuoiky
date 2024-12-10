@@ -15,28 +15,13 @@ using System.Windows.Shapes;
 namespace doanwpf
 {
     /// <summary>
-    /// Interaction logic for sanpham.xaml
+    /// Interaction logic for themsanpham.xaml
     /// </summary>
-    public partial class sanpham : Window
+    public partial class themsanpham : Window
     {
-        public sanpham()
+        public themsanpham()
         {
             InitializeComponent();
-        }
-
-        private void MenuItem_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void NameTextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
         }
     }
 }

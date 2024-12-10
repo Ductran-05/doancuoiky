@@ -70,6 +70,9 @@
     <Compile Include="sanpham.xaml.cs">
       <DependentUpon>sanpham.xaml</DependentUpon>
     </Compile>
+    <Compile Include="themsanpham.xaml.cs">
+      <DependentUpon>themsanpham.xaml</DependentUpon>
+    </Compile>
     <Page Include="mainwindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -83,6 +86,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="sanpham.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="themsanpham.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
