@@ -4,27 +4,17 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:doanwpf"
-         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
      TextElement.Foreground="{DynamicResource MaterialDesignBody}"
      TextElement.FontWeight="Regular"
      TextElement.FontSize="13"
      TextOptions.TextFormattingMode="Ideal"
      TextOptions.TextRenderingMode="Auto"
-     Background="{DynamicResource MaterialDesignPaper}"
+     Background="White"
      FontFamily="{DynamicResource MaterialDesignFont}"
         mc:Ignorable="d"
         Title="sanpham" Height="450" Width="800">
-    <Window.Resources>
-        <Style x:Key="ShadowedDataGrid" TargetType="DataGrid">
-            <Setter Property="Effect">
-                <Setter.Value>
-                    <DropShadowEffect Color="Black" BlurRadius="10" ShadowDepth="5" Direction="320" Opacity="0.5" />
-                </Setter.Value>
-            </Setter>
-            <Setter Property="Background" Value="White" />
-            <Setter Property="BorderBrush" Value="Gray" />
-        </Style>
-    </Window.Resources>
+
     <Grid ShowGridLines="False">
         <!-- Define columns: Left (150px), Right (auto-expand) -->
         <Grid.ColumnDefinitions>
@@ -64,27 +54,44 @@
 
         </StackPanel>
         <Grid Grid.Row="0" Grid.Column="1">
-            <Menu Width="150" Margin="5" HorizontalAlignment="Right">
-                <MenuItem Header="nguyen van a" Height="30" Width="150" HorizontalContentAlignment="Center">
-                    <MenuItem Header="thong tin tai khoan"/>
-                    <MenuItem Header="dang xuat"/>
+            <Menu Margin="5" HorizontalAlignment="Right" 
+  materialDesign:MenuAssist.TopLevelMenuItemHeight="30">
+
+                <MenuItem>
+                    <MenuItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="AccountCircle" Height="28" Width="26" />
+                            <TextBlock Text="Nguyen Van A" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </MenuItem.Header>
+                    <MenuItem
+                Header="Thông tin tài khoản" />
+                    <MenuItem
+                Header="Đăng xuất"/>
                 </MenuItem>
             </Menu>
 
         </Grid>
-        <Grid Grid.Row="1" Margin="100,162,150,24" Grid.Column="1">
-            <Button
-  IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
-  Style="{StaticResource MaterialDesignFloatingActionDarkButton}"
-  ToolTip="MaterialDesignFloatingActionDarkButton">
-                <materialDesign:PackIcon
-    Width="50"
-    Height="50"
-    Kind="Alarm" />
-            </Button>
-            <Label Content="Danh sách sản phẩm" Height="30" Width="150" Margin="-70,-136,320,314"></Label>
-            <Button Content="Thêm sản phẩm" Height="30" Width="150" Margin="335,-139,-85,317"></Button>
-            <DataGrid Style="{StaticResource ShadowedDataGrid}" AutoGenerateColumns="True" Width="400" Height="200" Margin="85,185,-85,-177" />
+        <Grid Grid.Row="1" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition Height="4*"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Content="Danh sách sản phẩm" Height="30" Width="150"
+                   HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,20,0,0"/>
+            <Button Grid.Row="0" Content="Thêm sản phẩm" Height="30" Width="150"
+                    HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,20,20,0"/>
+            <DataGrid Grid.Row="1"
+  materialDesign:DataGridAssist.CellPadding="4 2 2 2"
+  materialDesign:DataGridAssist.ColumnHeaderPadding="4 2 2 2"
+  CanUserAddRows="False"
+  CanUserSortColumns="False" Margin="20,20,20,20" >
+                <DataGrid.Columns>
+                    <DataGridCheckBoxColumn Header="cot thu nhat"/>
+                    <DataGridCheckBoxColumn Header="cot thu hai"/>
+                </DataGrid.Columns>
+                <materialDesign:SplitButton/>
+            </DataGrid>
         </Grid>
     </Grid>
 </Window>

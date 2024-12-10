@@ -25,3 +25,30 @@ C:\Users\TRAN HUU QUANG\source\repos\doanwpf\doanwpf\obj\Debug\App.baml
 C:\Users\TRAN HUU QUANG\source\repos\doanwpf\doanwpf\obj\Debug\mainwindow.baml
 C:\Users\TRAN HUU QUANG\source\repos\doanwpf\doanwpf\obj\Debug\sanpham.baml
 C:\Users\TRAN HUU QUANG\source\repos\doanwpf\doanwpf\obj\Debug\doanwpf.csproj.Up2Date
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\bin\Debug\doanwpf.exe.config
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\bin\Debug\doanwpf.exe
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\bin\Debug\doanwpf.pdb
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\bin\Debug\MaterialDesignColors.dll
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\bin\Debug\MaterialDesignColors.pdb
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.csproj.AssemblyReference.cache
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\mainwindow.g.cs
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\sanpham.g.cs
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\App.g.cs
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf_MarkupCompile.cache
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf_MarkupCompile.lref
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\App.baml
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\mainwindow.baml
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\sanpham.baml
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.g.resources
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.Properties.Resources.resources
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.csproj.GenerateResource.cache
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.csproj.CoreCompileInputs.cache
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.csproj.Up2Date
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.exe
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.pdb
