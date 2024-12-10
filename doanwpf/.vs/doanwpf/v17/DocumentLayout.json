@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TRAN HUU QUANG\\source\\repos\\doanwpf\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|c:\\users\\tran huu quang\\source\\repos\\doanwpf\\doanwpf\\sanpham.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|solutionrelative:doanwpf\\sanpham.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|c:\\users\\tran huu quang\\source\\repos\\doanwpf\\doanwpf\\sanpham.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|solutionrelative:doanwpf\\sanpham.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|C:\\Users\\TRAN HUU QUANG\\source\\repos\\doanwpf\\doanwpf\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|solutionrelative:doanwpf\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|c:\\users\\tran huu quang\\source\\repos\\doanwpf\\doanwpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|solutionrelative:doanwpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|C:\\Users\\TRAN HUU QUANG\\source\\repos\\doanwpf\\doanwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|solutionrelative:doanwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 188,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "sanpham.xaml",
+              "DocumentMoniker": "C:\\Users\\TRAN HUU QUANG\\source\\repos\\doanwpf\\doanwpf\\sanpham.xaml",
+              "RelativeDocumentMoniker": "doanwpf\\sanpham.xaml",
+              "ToolTip": "C:\\Users\\TRAN HUU QUANG\\source\\repos\\doanwpf\\doanwpf\\sanpham.xaml",
+              "RelativeToolTip": "doanwpf\\sanpham.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T04:54:38.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\TRAN HUU QUANG\\source\\repos\\doanwpf\\doanwpf\\App.xaml",
+              "RelativeDocumentMoniker": "doanwpf\\App.xaml",
+              "ToolTip": "C:\\Users\\TRAN HUU QUANG\\source\\repos\\doanwpf\\doanwpf\\App.xaml",
+              "RelativeToolTip": "doanwpf\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T06:30:26.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "mainwindow.xaml",
+              "DocumentMoniker": "C:\\Users\\TRAN HUU QUANG\\source\\repos\\doanwpf\\doanwpf\\mainwindow.xaml",
+              "RelativeDocumentMoniker": "doanwpf\\mainwindow.xaml",
+              "ToolTip": "C:\\Users\\TRAN HUU QUANG\\source\\repos\\doanwpf\\doanwpf\\mainwindow.xaml",
+              "RelativeToolTip": "doanwpf\\mainwindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T04:51:17.413Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 188,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "sanpham.xaml",
+              "DocumentMoniker": "C:\\Users\\TRAN HUU QUANG\\source\\repos\\doanwpf\\doanwpf\\sanpham.xaml",
+              "RelativeDocumentMoniker": "doanwpf\\sanpham.xaml",
+              "ToolTip": "C:\\Users\\TRAN HUU QUANG\\source\\repos\\doanwpf\\doanwpf\\sanpham.xaml",
+              "RelativeToolTip": "doanwpf\\sanpham.xaml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAE8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T04:54:45.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "mainwindow.xaml",
+              "DocumentMoniker": "C:\\Users\\TRAN HUU QUANG\\source\\repos\\doanwpf\\doanwpf\\mainwindow.xaml",
+              "RelativeDocumentMoniker": "doanwpf\\mainwindow.xaml",
+              "ToolTip": "C:\\Users\\TRAN HUU QUANG\\source\\repos\\doanwpf\\doanwpf\\mainwindow.xaml",
+              "RelativeToolTip": "doanwpf\\mainwindow.xaml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T04:51:47.776Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
