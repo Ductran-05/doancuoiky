@@ -146,7 +146,7 @@
             <Button Grid.Row="0" Content="Thêm sản phẩm" Height="30" Width="150" Background="#FF192537"
                     HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,20,20,0"/>
             <TextBox Height="30" Width="150" Margin="21,39,479,0"
-  VerticalAlignment="Top"
+  VerticalAlignment="Top" HorizontalAlignment="Left"
   Style="{StaticResource MaterialDesignFloatingHintTextBox}">
                 <materialDesign:HintAssist.Hint>
                     <StackPanel Orientation="Horizontal" Width="140">
