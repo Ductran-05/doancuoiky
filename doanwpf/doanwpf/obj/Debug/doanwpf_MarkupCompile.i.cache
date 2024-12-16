@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\App.xaml
-3760229339
+121484865544
 
-8-822414512
+17-1213696397
 17163854928
-mainwindow.xaml;sanpham.xaml;themsanpham.xaml;
+AddProduct.xaml;controls\CustomerControl.xaml;controls\EmployeesControl.xaml;controls\HomeControl.xaml;controls\ImportInvoiceControl.xaml;controls\InvoiceControl.xaml;controls\ProductsControl.xaml;controls\ProviderControl.xaml;controls\SalesReportControl.xaml;controls\WarehouseControl.xaml;HomeWindow.xaml;mainwindow.xaml;
 
-False
+True
 
