@@ -24,5 +24,11 @@ namespace doanwpf
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            AddCustomer addCustomer = new AddCustomer();
+            addCustomer.Show();
+        }
     }
 }

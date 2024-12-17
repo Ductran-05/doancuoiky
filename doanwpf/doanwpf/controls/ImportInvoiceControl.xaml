@@ -21,6 +21,9 @@ FontFamily="{DynamicResource MaterialDesignFont}"
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0">
+            <Button  Content="Thêm hóa đơn" Height="30" Width="150" Background="#FF192537"
+HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,5,20,5" Click="Button_Click"/>
+
             <Label HorizontalAlignment="Left" Content="Import invoices" VerticalAlignment="Center" Margin="20,20,20,20"
                   FontFamily="Bahnschrift SemiLight Condensed" FontSize="24" Background="#FF192537" Foreground="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" />
         </Grid>
@@ -32,7 +35,7 @@ FontFamily="{DynamicResource MaterialDesignFont}"
                         <!-- Icon -->
                         <materialDesign:PackIcon Kind="Magnify" />
                         <!-- Context -->
-                        <TextBlock Text="Tìm sản phẩm" VerticalAlignment="Center" />
+                        <TextBlock Text="Tìm hóa đơn" VerticalAlignment="Center" />
                     </StackPanel>
                 </materialDesign:HintAssist.Hint>
             </TextBox>

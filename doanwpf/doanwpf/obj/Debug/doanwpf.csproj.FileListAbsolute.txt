@@ -52,8 +52,6 @@ C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.exe
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.pdb
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\HomeWindow.g.cs
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\HomeWindow.baml
-C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\AddProduct.g.cs
-C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\AddProduct.baml
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\controls\CustomerControl.g.cs
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\controls\EmployeesControl.g.cs
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\controls\HomeControl.g.cs
@@ -72,3 +70,15 @@ C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\controls\ProductsCont
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\controls\ProviderControl.baml
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\controls\SalesReportControl.baml
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\controls\WarehouseControl.baml
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\ADD\AddProduct.g.cs
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\ADD\AddProduct.baml
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\ADD\AddCustomer.g.cs
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\ADD\AddEmployee.g.cs
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\ADD\AddCustomer.baml
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\ADD\AddEmployee.baml
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\ADD\AddInvoice.g.cs
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\ADD\AddInvoice.baml
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\ADD\AddImportInvoice.g.cs
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\ADD\AddPrdInInvoice.g.cs
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\ADD\AddImportInvoice.baml
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\ADD\AddPrdInInvoice.baml

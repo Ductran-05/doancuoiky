@@ -74,6 +74,19 @@ FontFamily="{DynamicResource MaterialDesignFont}"
                             <materialDesign:SplitButton/>
                         </DataGrid>
                     </TabItem>
+                    <TabItem Margin="10,0,0,0" Header="Chất liệu">
+                        <DataGrid 
+materialDesign:DataGridAssist.CellPadding="4 2 2 2"
+materialDesign:DataGridAssist.ColumnHeaderPadding="4 2 2 2"
+CanUserAddRows="False"
+CanUserSortColumns="False" Margin="10" >
+                            <DataGrid.Columns>
+                                <DataGridCheckBoxColumn Header="cot thu nhat"/>
+                                <DataGridCheckBoxColumn Header="cot thu hai"/>
+                            </DataGrid.Columns>
+                            <materialDesign:SplitButton/>
+                        </DataGrid>
+                    </TabItem>
                 </TabControl>
             </materialDesign:Card>
         </Grid>

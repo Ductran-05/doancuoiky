@@ -15,6 +15,42 @@ FontFamily="{DynamicResource MaterialDesignFont}"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <Label>invoice</Label>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Button  Content="Thêm hóa đơn" Height="30" Width="150" Background="#FF192537"
+HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,5,20,5" Click="Button_Click"/>
+            <Label HorizontalAlignment="Left" Content="Invoices" VerticalAlignment="Center" Margin="20,20,20,20"
+              FontFamily="Bahnschrift SemiLight Condensed" FontSize="24" Background="#FF192537" Foreground="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" />
+        </Grid>
+        <Grid Grid.Row="1">
+            <TextBox Margin="10,10,10,10" Height="30" Width="150" VerticalAlignment="Top" HorizontalAlignment="Left"
+            Style="{StaticResource MaterialDesignFloatingHintTextBox}">
+                <materialDesign:HintAssist.Hint>
+                    <StackPanel Orientation="Horizontal" Width="140">
+                        <!-- Icon -->
+                        <materialDesign:PackIcon Kind="Magnify" />
+                        <!-- Context -->
+                        <TextBlock Text="Tìm hóa đơn" VerticalAlignment="Center" />
+                    </StackPanel>
+                </materialDesign:HintAssist.Hint>
+            </TextBox>
+        </Grid>
+        <Grid Grid.Row="2">
+            <DataGrid
+ materialDesign:DataGridAssist.CellPadding="4 2 2 2"
+ materialDesign:DataGridAssist.ColumnHeaderPadding="4 2 2 2"
+ CanUserAddRows="False"
+ CanUserSortColumns="False" Margin="10" >
+                <DataGrid.Columns>
+                    <DataGridCheckBoxColumn Header="cot thu nhat"/>
+                    <DataGridCheckBoxColumn Header="cot thu hai"/>
+                </DataGrid.Columns>
+                <materialDesign:SplitButton/>
+            </DataGrid>
+        </Grid>
     </Grid>
 </UserControl>

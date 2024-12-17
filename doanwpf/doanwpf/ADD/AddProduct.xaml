@@ -13,62 +13,69 @@ TextOptions.TextRenderingMode="Auto"
 Background="White"
 FontFamily="{DynamicResource MaterialDesignFont}"
         mc:Ignorable="d"
-        Title="AddProduct" Height="450" Width="800">
-    <Grid>
+        Title="AddProduct" Height="410" Width="650">
+    <Grid Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" >
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition/>
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
-        <Label Grid.Row="0" Margin="20,0,0,0" FontSize="20" FontFamily="Bahnschrift SemiLight Condensed">Thông tin sản phẩm</Label>
-        <ScrollViewer Grid.Row="1">
-            <StackPanel Grid.Row="1">
-                <TextBox Margin="20,0,0,0" VerticalAlignment="Center"
+        <Grid Grid.Row="0" Background="#FF192537">
+            <Label  Margin="20,0,0,0" FontSize="20" Foreground="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" FontFamily="Bahnschrift SemiLight Condensed">Thông tin sản phẩm</Label>
+        </Grid>
+        <Grid Grid.Row="1" >
+            <Border Margin="20" CornerRadius="10" BorderBrush="Gray" BorderThickness="1" Background="White">
+                <ScrollViewer >
+                    <StackPanel Margin="40" Background="White">
+                        <TextBox Margin="20,0,20,0" VerticalAlignment="Center"
              materialDesign:HintAssist.Hint="Tên sản phẩm"      
              Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontSize="13" />
-                <ComboBox Margin="20,0,0,0"
+                        <ComboBox Margin="20,0,20,0"
   MinWidth="72"
   materialDesign:HintAssist.FontFamily="Verdana"
   materialDesign:HintAssist.Hint="Mã loại sản phẩm"
   Style="{StaticResource MaterialDesignFloatingHintComboBox}" >
-                    <ComboBoxItem Content="op1"/>
-                </ComboBox>
-                <ComboBox Margin="20,0,0,0"
+                            <ComboBoxItem Content="op1"/>
+                        </ComboBox>
+                        <ComboBox Margin="20,0,20,0"
 MinWidth="72"
 materialDesign:HintAssist.FontFamily="Verdana"
 materialDesign:HintAssist.Hint="Mã nhà cung cấp"
 Style="{StaticResource MaterialDesignFloatingHintComboBox}" >
-                    <ComboBoxItem Content="op1"/>
-                </ComboBox>
-                <ComboBox Margin="20,0,0,0"
+                            <ComboBoxItem Content="op1"/>
+                        </ComboBox>
+                        <ComboBox Margin="20,0,20,0"
 MinWidth="72"
 materialDesign:HintAssist.FontFamily="Verdana"
 materialDesign:HintAssist.Hint="Size"
 Style="{StaticResource MaterialDesignFloatingHintComboBox}" >
-                    <ComboBoxItem Content="op1"/>
-                </ComboBox>
-                <ComboBox Margin="20,0,0,0"
+                            <ComboBoxItem Content="op1"/>
+                        </ComboBox>
+                        <ComboBox Margin="20,0,20,0"
 MinWidth="72"
 materialDesign:HintAssist.FontFamily="Verdana"
 materialDesign:HintAssist.Hint="Mã chất liệu"
 Style="{StaticResource MaterialDesignFloatingHintComboBox}" >
-                    <ComboBoxItem Content="op1"/>
-                </ComboBox>
-                <TextBox Margin="20,0,0,0" VerticalAlignment="Center"
+                            <ComboBoxItem Content="op1"/>
+                        </ComboBox>
+                        <TextBox Margin="20,0,0,0"
  materialDesign:HintAssist.Hint="Giá bán" 
  Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontSize="13" />
-                <TextBox Margin="20,0,0,0" VerticalAlignment="Center"
+                        <TextBox Margin="20,0,0,0" VerticalAlignment="Center"
  materialDesign:HintAssist.Hint="Giá vốn" 
  Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontSize="13" />
-                <Grid>
-                    <!-- Button để mở OpenFileDialog chọn ảnh -->
-                    <Button Content="Chọn ảnh" Width="100" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10" Click="OnSelectImageClicked"/>
+                        <Grid>
+                            <!-- Button để mở OpenFileDialog chọn ảnh -->
+                            <Button Content="Chọn ảnh" Width="100" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10" Click="OnSelectImageClicked"/>
 
-                    <!-- Image để hiển thị ảnh -->
-                    <Image x:Name="SelectedImage" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="70"/>
-                </Grid>
-            </StackPanel>
-        </ScrollViewer>
+                            <!-- Image để hiển thị ảnh -->
+                            <Image x:Name="SelectedImage" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="100"/>
+                        </Grid>
+                    </StackPanel>
+                </ScrollViewer>
+            </Border>
+
+        </Grid>
         <Grid Grid.Row="2">
             <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
                 <Button Width="200" Height="50" Margin="10"
