@@ -150,7 +150,7 @@ materialDesign:MenuAssist.TopLevelMenuItemHeight="30">
                         </StackPanel>
                     </MenuItem.Header>
                     <MenuItem
-              Header="Thông tin tài khoản"/>
+              Header="Thông tin tài khoản" Click="MenuItem_Click_2"/>
                     <MenuItem
               Header="Đăng xuất"/>
                 </MenuItem>

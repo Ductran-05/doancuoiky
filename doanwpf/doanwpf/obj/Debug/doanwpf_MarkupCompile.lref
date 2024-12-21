@@ -2,7 +2,11 @@
 FC:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\App.xaml;;
 FC:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\ADD\AddCustomer.xaml;;
 FC:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\ADD\AddEmployee.xaml;;
+FC:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\ADD\AddImportInvoice.xaml;;
+FC:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\ADD\AddInvoice.xaml;;
+FC:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\ADD\AddPrdInInvoice.xaml;;
 FC:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\ADD\AddProduct.xaml;;
+FC:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\ADD\AddProvider.xaml;;
 FC:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\controls\CustomerControl.xaml;;
 FC:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\controls\EmployeesControl.xaml;;
 FC:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\controls\HomeControl.xaml;;
@@ -13,8 +17,6 @@ FC:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\controls\ProviderControl.xaml;
 FC:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\controls\SalesReportControl.xaml;;
 FC:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\controls\WarehouseControl.xaml;;
 FC:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\HomeWindow.xaml;;
-FC:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\mainwindow.xaml;;
-FC:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\ADD\AddInvoice.xaml;;
-FC:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\ADD\AddImportInvoice.xaml;;
-FC:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\ADD\AddPrdInInvoice.xaml;;
+FC:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\loginwindow.xaml;;
+FC:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\InfoAccount.xaml;;
 

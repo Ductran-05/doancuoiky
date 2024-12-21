@@ -37,12 +37,10 @@ C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\bin\Debug\MaterialDesignThemes.
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\bin\Debug\Microsoft.Xaml.Behaviors.pdb
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\bin\Debug\Microsoft.Xaml.Behaviors.xml
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.csproj.AssemblyReference.cache
-C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\mainwindow.g.cs
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\App.g.cs
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf_MarkupCompile.cache
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf_MarkupCompile.lref
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\App.baml
-C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\mainwindow.baml
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.g.resources
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.Properties.Resources.resources
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.csproj.GenerateResource.cache
@@ -82,3 +80,9 @@ C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\ADD\AddImportInvoice.
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\ADD\AddPrdInInvoice.g.cs
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\ADD\AddImportInvoice.baml
 C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\ADD\AddPrdInInvoice.baml
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\ADD\AddProvider.g.cs
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\ADD\AddProvider.baml
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\loginwindow.g.cs
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\loginwindow.baml
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\InfoAccount.g.cs
+C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\InfoAccount.baml

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using doanwpf.ADD;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,12 @@ namespace doanwpf
         public ProviderControl()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+           AddProvider addProvider = new AddProvider(); 
+           addProvider.Show();
         }
     }
 }

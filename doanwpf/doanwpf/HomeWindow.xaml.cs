@@ -21,6 +21,10 @@ namespace doanwpf
     {
         public HomeWindow()
         {
+            MainWindow mainWindow = new MainWindow();
+            this.Hide();
+            mainWindow.ShowDialog();
+            this.Show();
             InitializeComponent();
         }
 
@@ -69,6 +73,12 @@ namespace doanwpf
         {
             ContenArea.Children.Add(new HomeControl());
         }
-        #endregion 
+        #endregion
+
+        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
+        {
+            InfoAccount infoAccount = new InfoAccount();
+            infoAccount.Show();
+        }
     }
 }
