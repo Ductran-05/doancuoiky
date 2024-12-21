@@ -19,5 +19,6 @@ namespace doanwpf.MODEL
         public string SDT { get; set; }
         public string Gioitinh { get; set; }
         public System.DateTime Ngaysinh { get; set; }
+        public string Matkhau { get; set; }
     }
 }

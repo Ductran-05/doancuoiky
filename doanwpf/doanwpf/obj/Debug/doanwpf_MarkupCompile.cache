@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\obj\Debug\
+C:\doancuoiky\doanwpf\doanwpf\obj\Debug\
 doanwpf
 none
 false
 DEBUG;TRACE
-C:\ONEDRIVE\Documents\doancuoiky\doanwpf\doanwpf\App.xaml
+C:\doancuoiky\doanwpf\doanwpf\App.xaml
 19-564813204
-
-23345663330
-17163854928
+2-310363427
+38-1606999262
+221995266541
 ADD\AddCustomer.xaml;ADD\AddEmployee.xaml;ADD\AddImportInvoice.xaml;ADD\AddInvoice.xaml;ADD\AddPrdInInvoice.xaml;ADD\AddProduct.xaml;ADD\AddProvider.xaml;controls\CustomerControl.xaml;controls\EmployeesControl.xaml;controls\HomeControl.xaml;controls\ImportInvoiceControl.xaml;controls\InvoiceControl.xaml;controls\ProductsControl.xaml;controls\ProviderControl.xaml;controls\SalesReportControl.xaml;controls\WarehouseControl.xaml;HomeWindow.xaml;InfoAccount.xaml;loginwindow.xaml;
 
 False

@@ -132,6 +132,7 @@ warning 6013: The table/view 'database_doan.dbo.DOANHTHU' does not have a primar
           <Property Name="SDT" Type="char" MaxLength="10" Nullable="false" />
           <Property Name="Gioitinh" Type="nchar" MaxLength="10" Nullable="false" />
           <Property Name="Ngaysinh" Type="date" Nullable="false" />
+          <Property Name="Matkhau" Type="char" MaxLength="10" />
         </EntityType>
         <!--Errors Found During Generation:
 error 6004: The table 'database_doan.dbo.CTNHAPHANG' is referenced by a relationship, but cannot be found.
@@ -429,6 +430,7 @@ error 6004: The table 'database_doan.dbo.CTNHAPHANG' is referenced by a relation
           <Property Name="SDT" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
           <Property Name="Gioitinh" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
           <Property Name="Ngaysinh" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Matkhau" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
         </EntityType>
         <Association Name="FK_SANPHAM_CHATLIEU">
           <End Role="CHATLIEU" Type="Self.CHATLIEU" Multiplicity="0..1" />
@@ -538,7 +540,7 @@ error 6004: The table 'database_doan.dbo.CTNHAPHANG' is referenced by a relation
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="database_doanEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="database_doanEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="CHATLIEUx" EntityType="Self.CHATLIEU" />
           <EntitySet Name="CTHOADONs" EntityType="Self.CTHOADON" />
           <EntitySet Name="DONHANGs" EntityType="Self.DONHANG" />
@@ -592,7 +594,7 @@ error 6004: The table 'database_doan.dbo.CTNHAPHANG' is referenced by a relation
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="database_doanModelStoreContainer" CdmEntityContainer="database_doanEntities">
+        <EntityContainerMapping StorageEntityContainer="database_doanModelStoreContainer" CdmEntityContainer="database_doanEntities1">
           <EntitySetMapping Name="CHATLIEUx">
             <EntityTypeMapping TypeName="database_doanModel.CHATLIEU">
               <MappingFragment StoreEntitySet="CHATLIEU">
@@ -711,6 +713,7 @@ error 6004: The table 'database_doan.dbo.CTNHAPHANG' is referenced by a relation
                 <ScalarProperty Name="SDT" ColumnName="SDT" />
                 <ScalarProperty Name="Gioitinh" ColumnName="Gioitinh" />
                 <ScalarProperty Name="Ngaysinh" ColumnName="Ngaysinh" />
+                <ScalarProperty Name="Matkhau" ColumnName="Matkhau" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

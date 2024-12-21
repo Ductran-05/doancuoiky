@@ -19,12 +19,10 @@ namespace doanwpf
     /// </summary>
     public partial class HomeWindow : Window
     {
+        public bool islogin;
+
         public HomeWindow()
         {
-            MainWindow mainWindow = new MainWindow();
-            this.Hide();
-            mainWindow.ShowDialog();
-            this.Show();
             InitializeComponent();
         }
 

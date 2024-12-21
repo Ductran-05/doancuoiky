@@ -1,29 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Common;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace doanwpf.MODEL
+﻿namespace doanwpf.MODEL
 {
     internal class dataprovider
     {
         private static dataprovider _ins;
-        public static dataprovider Ins { 
-            get 
-            { 
-                if (_ins == null) 
-                    _ins = new dataprovider(); 
-                return _ins; 
-            } 
-            set 
+        public static dataprovider Ins
+        {
+            get
             {
-                _ins = value; 
+                if (_ins == null)
+                    _ins = new dataprovider();
+                return _ins;
             }
-        } 
-        public database_doanEntities DB { get; set; }
-        database_doanEntities db=new database_doanEntities();
-        
+            set
+            {
+                _ins = value;
+            }
+        }
+
+        // Khởi tạo đối tượng DB đúng cách
+        public database_doanEntities1 DB { get; set; }
+
+        // Khởi tạo đối tượng DB trong constructor của dataprovider
+        private dataprovider()
+        {
+            DB = new database_doanEntities1(); // Khởi tạo DB trong constructor
+        }
     }
 }

@@ -1,4 +1,5 @@
-﻿using MaterialDesignThemes.Wpf;
+﻿using doanwpf.MODEL;
+using MaterialDesignThemes.Wpf;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,6 +26,36 @@ namespace doanwpf
         {
             InitializeComponent();
 
+        }
+
+        private void Window_Closed(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (Login())
+            {
+                this.Hide();
+                HomeWindow homeWindow = new HomeWindow();
+                homeWindow.Show();
+            }
+        }
+        private bool Login()
+        {
+            string username = UsernameTextBox.Text;
+            string password = FloatingPasswordBox.Password;
+            var acc=dataprovider.Ins.DB.THONGTINTAIKHOANs.Where(p => p.TenDangNhap== username && p.Matkhau==password).Count();
+            if(acc>0)
+
+                return true;
+            else return false;
         }
     }
 }
