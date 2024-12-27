@@ -1,6 +1,8 @@
 ﻿using doanwpf.ADD;
+using doanwpf.MODEL;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,15 +23,24 @@ namespace doanwpf
     /// </summary>
     public partial class InvoiceControl : UserControl
     {
+        private ObservableCollection<DONHANG> _donhanglist;
+        public ObservableCollection<DONHANG> donhanglist { get => _donhanglist; set { _donhanglist = value; } }
         public InvoiceControl()
         {
             InitializeComponent();
+            loaddonhangdata();
+            DataContext = this;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             AddInvoice addInvoice = new AddInvoice();
             addInvoice.Show();
+        }
+        void loaddonhangdata()
+        {
+            donhanglist = new ObservableCollection<DONHANG>(dataprovider.Ins.DB.DONHANGs.ToList());
+
         }
     }
 }

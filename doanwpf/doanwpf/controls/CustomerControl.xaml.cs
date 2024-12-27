@@ -1,5 +1,7 @@
-﻿using System;
+﻿using doanwpf.MODEL;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,15 +22,23 @@ namespace doanwpf
     /// </summary>
     public partial class CustomerControl : UserControl
     {
+        private ObservableCollection<KHACHHANG> _khachhanglist;
+        public ObservableCollection<KHACHHANG>  khachhanglist{ get => _khachhanglist; set { _khachhanglist = value; } }
         public CustomerControl()
         {
             InitializeComponent();
+            loadkhachhangdata();
+            DataContext=this;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             AddCustomer addCustomer = new AddCustomer();
             addCustomer.Show();
+        }
+        void loadkhachhangdata()
+        {
+            khachhanglist = new ObservableCollection<KHACHHANG>(dataprovider.Ins.DB.KHACHHANGs.ToList());
         }
     }
 }

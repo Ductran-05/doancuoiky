@@ -22,6 +22,8 @@ FontFamily="{DynamicResource MaterialDesignFont}"
         <Grid Grid.Row="0">
             <Label HorizontalAlignment="Left" Content="Warehouse" VerticalAlignment="Center" Margin="20,20,20,20"
       FontFamily="Bahnschrift SemiLight Condensed" FontSize="24" Background="#FF192537" Foreground="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" />
+            <Button  Content="Thêm hóa đơn" Height="30" Width="150" Background="#FF192537"
+HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,5,20,5" Click="Button_Click"/>
         </Grid>
         <Grid Grid.Row="1">
             <materialDesign:Card>
@@ -43,17 +45,55 @@ FontFamily="{DynamicResource MaterialDesignFont}"
                                     </StackPanel>
                                 </materialDesign:HintAssist.Hint>
                             </TextBox>
-                            <DataGrid Grid.Row="1"
-                                materialDesign:DataGridAssist.CellPadding="4 2 2 2"
-                                materialDesign:DataGridAssist.ColumnHeaderPadding="4 2 2 2"
-                                CanUserAddRows="False"
-                                CanUserSortColumns="False" Margin="10" >
-                                <DataGrid.Columns>
-                                    <DataGridCheckBoxColumn Header="cot thu nhat"/>
-                                    <DataGridCheckBoxColumn Header="cot thu hai"/>
+
+                            <DataGrid Grid.Row="1" ItemsSource="{Binding khosanphamlist}" 
+ AutoGenerateColumns="False" Margin="10"
+ materialDesign:DataGridAssist.CellPadding="4 2 2 2"
+ materialDesign:DataGridAssist.ColumnHeaderPadding="4 2 2 2">
+
+                                <DataGrid.Columns >
+                                    <DataGridTextColumn Header="Mã Sản Phẩm" Binding="{Binding MaSP}" />
+                                    <DataGridTextColumn Header="Tên Sản Phẩm" Binding="{Binding TenSP}" />
+                                    <DataGridTextColumn Header="Tồn kho" Binding="{Binding TonKho}" />
+                                    <DataGridTextColumn Header="Size" Binding="{Binding Size}" />
+                                    <DataGridTextColumn Header="Mã chất liệu" Binding="{Binding MaCL}" Width="*" />
                                 </DataGrid.Columns>
-                                <materialDesign:SplitButton/>
                             </DataGrid>
+
+                        </Grid>
+                    </TabItem>
+                    <TabItem Margin="10,0,0,0" Header="Danh sách hóa đơn">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <TextBox Margin="10,0,0,0" Height="30" Width="150" VerticalAlignment="Top" HorizontalAlignment="Left"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}">
+                                <materialDesign:HintAssist.Hint>
+                                    <StackPanel Orientation="Horizontal" Width="140">
+                                        <!-- Icon -->
+                                        <materialDesign:PackIcon Kind="Magnify" />
+                                        <!-- Context -->
+                                        <TextBlock Text="Tìm hóa đơn" VerticalAlignment="Center" />
+                                    </StackPanel>
+                                </materialDesign:HintAssist.Hint>
+                            </TextBox>
+                          
+                            <DataGrid Grid.Row="1" ItemsSource="{Binding nhaphanglist}" 
+AutoGenerateColumns="False" Margin="10"
+materialDesign:DataGridAssist.CellPadding="4 2 2 2"
+materialDesign:DataGridAssist.ColumnHeaderPadding="4 2 2 2">
+
+                                <DataGrid.Columns >
+                                    <DataGridTextColumn Header="Mã nhập hàng" Binding="{Binding MaHD}" />
+                                    <DataGridTextColumn Header="Mã nhân viên" Binding="{Binding MaNV}" />
+                                    <DataGridTextColumn Header="Ngày nhập hàng" Binding="{Binding NgayHD}" />
+                                    <DataGridTextColumn Header="Mã nhà cung cấp" Binding="{Binding MaNCC}" />
+                                    <DataGridTextColumn Header="Trị giá" Binding="{Binding Trigia}" Width="*" />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                            
                         </Grid>
                     </TabItem>
                 </TabControl>

@@ -1,6 +1,8 @@
 ﻿using doanwpf.ADD;
+using doanwpf.MODEL;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,15 +23,23 @@ namespace doanwpf
     /// </summary>
     public partial class EmployeesControl : UserControl
     {
+        private ObservableCollection<NHANVIEN> _nhanvienlist;
+        public ObservableCollection<NHANVIEN> nhanvienlist { get => _nhanvienlist; set { _nhanvienlist = value; } }
         public EmployeesControl()
         {
             InitializeComponent();
+            loadnhanviendata();
+            DataContext =this;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             AddEmployee addEmployee = new AddEmployee();
             addEmployee.Show();
+        }
+        void loadnhanviendata()
+        {
+            nhanvienlist = new ObservableCollection<NHANVIEN>(dataprovider.Ins.DB.NHANVIENs.ToList());
         }
     }
 }

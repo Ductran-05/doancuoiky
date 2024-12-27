@@ -1,6 +1,8 @@
 ﻿using doanwpf.ADD;
+using doanwpf.MODEL;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,15 +23,23 @@ namespace doanwpf
     /// </summary>
     public partial class ProviderControl : UserControl
     {
+        private ObservableCollection<NHACUNGCAP> _nhacungcaplist;
+        public ObservableCollection<NHACUNGCAP> nhacungcaplist { get => _nhacungcaplist; set { _nhacungcaplist = value; } }
         public ProviderControl()
         {
             InitializeComponent();
+            loadnhacungcapdata();
+            DataContext = this;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
            AddProvider addProvider = new AddProvider(); 
            addProvider.Show();
+        }
+        void loadnhacungcapdata()
+        {
+            nhacungcaplist = new ObservableCollection<NHACUNGCAP>(dataprovider.Ins.DB.NHACUNGCAPs.ToList());
         }
     }
 }

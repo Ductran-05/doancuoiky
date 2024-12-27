@@ -540,7 +540,7 @@ error 6004: The table 'database_doan.dbo.CTNHAPHANG' is referenced by a relation
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="database_doanEntities1" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="database_doanEntities2" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="CHATLIEUx" EntityType="Self.CHATLIEU" />
           <EntitySet Name="CTHOADONs" EntityType="Self.CTHOADON" />
           <EntitySet Name="DONHANGs" EntityType="Self.DONHANG" />
@@ -594,7 +594,7 @@ error 6004: The table 'database_doan.dbo.CTNHAPHANG' is referenced by a relation
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="database_doanModelStoreContainer" CdmEntityContainer="database_doanEntities1">
+        <EntityContainerMapping StorageEntityContainer="database_doanModelStoreContainer" CdmEntityContainer="database_doanEntities2">
           <EntitySetMapping Name="CHATLIEUx">
             <EntityTypeMapping TypeName="database_doanModel.CHATLIEU">
               <MappingFragment StoreEntitySet="CHATLIEU">

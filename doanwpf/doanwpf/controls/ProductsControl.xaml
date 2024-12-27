@@ -48,44 +48,56 @@ FontFamily="{DynamicResource MaterialDesignFont}"
                                     </StackPanel>
                                 </materialDesign:HintAssist.Hint>
                             </TextBox>
-                            <DataGrid Grid.Row="1"
-                                materialDesign:DataGridAssist.CellPadding="4 2 2 2"
-                                materialDesign:DataGridAssist.ColumnHeaderPadding="4 2 2 2"
-                                CanUserAddRows="False"
-                                CanUserSortColumns="False" Margin="10" >        
+
+
+                            <DataGrid Grid.Row="1" ItemsSource="{Binding sanphamlist}" 
+                            AutoGenerateColumns="False" Margin="10"
+                            materialDesign:DataGridAssist.CellPadding="4 2 2 2"
+                            materialDesign:DataGridAssist.ColumnHeaderPadding="4 2 2 2">
+
                                 <DataGrid.Columns>
-                                <DataGridCheckBoxColumn Header="cot thu nhat"/>
-                                <DataGridCheckBoxColumn Header="cot thu hai"/>
-                            </DataGrid.Columns>
-                            <materialDesign:SplitButton/>
+                                    <DataGridTextColumn Header="Mã Sản Phẩm" Binding="{Binding MaSP}" />
+                                    <DataGridTextColumn Header="Tên Sản Phẩm" Binding="{Binding TenSP}" />
+                                    <DataGridTextColumn Header="Mã loại" Binding="{Binding MaLoai}" />
+                                    <DataGridTextColumn Header="Mã NCC" Binding="{Binding MaNCC}" />
+                                    <DataGridTextColumn Header="Giá bán" Binding="{Binding Giaban}" />
+                                    <DataGridTextColumn Header="Giá gốc" Binding="{Binding Giagoc}" />
+                                    <DataGridTextColumn Header="Tồn kho" Binding="{Binding TonKho}" />
+                                    <DataGridTextColumn Header="Size" Binding="{Binding Size}" />
+                                    <DataGridTextColumn Header="Mã chất liệu" Binding="{Binding MaCL}" />
+                                    <DataGridTextColumn Header="Ảnh" Binding="{Binding FilePath}" Width="*" />
+                                </DataGrid.Columns>
                             </DataGrid>
+
                         </Grid>
                     </TabItem>
                     <TabItem Margin="10,0,0,0" Header="Danh mục">
-                        <DataGrid 
-    materialDesign:DataGridAssist.CellPadding="4 2 2 2"
-    materialDesign:DataGridAssist.ColumnHeaderPadding="4 2 2 2"
-    CanUserAddRows="False"
-    CanUserSortColumns="False" Margin="10" >
-                            <DataGrid.Columns>
-                                <DataGridCheckBoxColumn Header="cot thu nhat"/>
-                                <DataGridCheckBoxColumn Header="cot thu hai"/>
+
+                        <DataGrid Grid.Row="1" ItemsSource="{Binding loaisanphamlist}" 
+             AutoGenerateColumns="False" Margin="10"
+             materialDesign:DataGridAssist.CellPadding="4 2 2 2"
+             materialDesign:DataGridAssist.ColumnHeaderPadding="4 2 2 2">
+                            <DataGrid.Columns >
+                                <DataGridTextColumn Header="Mã loại Sản Phẩm" Binding="{Binding Maloai}" />
+                                <DataGridTextColumn Header="Tên loại Sản Phẩm" Binding="{Binding TenLSP}" />
+
                             </DataGrid.Columns>
-                            <materialDesign:SplitButton/>
                         </DataGrid>
+                        
                     </TabItem>
                     <TabItem Margin="10,0,0,0" Header="Chất liệu">
-                        <DataGrid 
-materialDesign:DataGridAssist.CellPadding="4 2 2 2"
-materialDesign:DataGridAssist.ColumnHeaderPadding="4 2 2 2"
-CanUserAddRows="False"
-CanUserSortColumns="False" Margin="10" >
-                            <DataGrid.Columns>
-                                <DataGridCheckBoxColumn Header="cot thu nhat"/>
-                                <DataGridCheckBoxColumn Header="cot thu hai"/>
+
+                        <DataGrid Grid.Row="1" ItemsSource="{Binding chatlieulist}" 
+                        AutoGenerateColumns="False" Margin="10"
+                        materialDesign:DataGridAssist.CellPadding="4 2 2 2"
+                        materialDesign:DataGridAssist.ColumnHeaderPadding="4 2 2 2">        
+                            <DataGrid.Columns >
+                                <DataGridTextColumn Header="Mã chất liệu" Binding="{Binding MaCL}" />
+                                <DataGridTextColumn Header="Tên chất liệu" Binding="{Binding Tenchatlieu}" />
+
                             </DataGrid.Columns>
-                            <materialDesign:SplitButton/>
                         </DataGrid>
+                        
                     </TabItem>
                 </TabControl>
             </materialDesign:Card>

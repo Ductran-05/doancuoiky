@@ -26,48 +26,48 @@ namespace doanwpf
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void btnproductclick(object sender, RoutedEventArgs e)
         {
             ContenArea.Children.Add(new ProductsControl());
         }
         //mở tab
         #region
-        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        private void btnwarehouseclick(object sender, RoutedEventArgs e)
         {
             ContenArea.Children.Add(new WarehouseControl());
         }
 
-        private void MenuItem_Click_1(object sender, RoutedEventArgs e)
+        private void btnimportclick(object sender, RoutedEventArgs e)
         {
             ContenArea.Children.Add(new ImportInvoiceControl());
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void btncustomerclick(object sender, RoutedEventArgs e)
         {
             ContenArea.Children.Add(new CustomerControl());
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private void btninvoiceclick(object sender, RoutedEventArgs e)
         {
             ContenArea.Children.Add(new InvoiceControl());
         }
 
-        private void Button_Click_3(object sender, RoutedEventArgs e)
+        private void btnproviderclick(object sender, RoutedEventArgs e)
         {
             ContenArea.Children.Add(new ProviderControl());
         }
 
-        private void Button_Click_4(object sender, RoutedEventArgs e)
+        private void btnemployeeclick(object sender, RoutedEventArgs e)
         {
             ContenArea.Children.Add(new EmployeesControl());    
         }
 
-        private void Button_Click_5(object sender, RoutedEventArgs e)
+        private void btnsaleclick(object sender, RoutedEventArgs e)
         {
             ContenArea.Children.Add(new SalesReportControl());
         }
 
-        private void Button_Click_6(object sender, RoutedEventArgs e)
+        private void btnhomeclick(object sender, RoutedEventArgs e)
         {
             ContenArea.Children.Add(new HomeControl());
         }
@@ -78,5 +78,6 @@ namespace doanwpf
             InfoAccount infoAccount = new InfoAccount();
             infoAccount.Show();
         }
+
     }
 }

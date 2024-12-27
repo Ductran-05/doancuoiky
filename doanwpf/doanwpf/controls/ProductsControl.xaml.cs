@@ -1,5 +1,7 @@
-﻿using System;
+﻿using doanwpf.MODEL;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,15 +22,37 @@ namespace doanwpf
     /// </summary>
     public partial class ProductsControl : UserControl
     {
+        private ObservableCollection<SANPHAM> _sanphamlist;
+        public ObservableCollection<SANPHAM> sanphamlist { get => _sanphamlist; set { _sanphamlist = value; } }
+        private ObservableCollection<LOAISANPHAM> _loaisanphamlist;
+        public ObservableCollection<LOAISANPHAM> loaisanphamlist { get => _loaisanphamlist;set { _loaisanphamlist= value; } }
+        private ObservableCollection<CHATLIEU> _chatlieulist;
+        public ObservableCollection<CHATLIEU> chatlieulist { get => _chatlieulist; set { _chatlieulist = value; } }
         public ProductsControl()
         {
             InitializeComponent();
+            loadsanphamdata();
+            loadloaisanphamdata();
+            loadchatlieudata(); 
+            DataContext = this;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             AddProduct addProduct = new AddProduct();
             addProduct.Show();
+        }
+        void loadsanphamdata()
+        {
+            sanphamlist = new ObservableCollection<SANPHAM>(dataprovider.Ins.DB.SANPHAMs.ToList());
+        }
+        void loadloaisanphamdata()
+        {
+            loaisanphamlist = new ObservableCollection<LOAISANPHAM>(dataprovider.Ins.DB.LOAISANPHAMs.ToList());
+        }
+        void loadchatlieudata()
+        {
+            chatlieulist = new ObservableCollection<CHATLIEU>(dataprovider.Ins.DB.CHATLIEUx.ToList());
         }
     }
 }

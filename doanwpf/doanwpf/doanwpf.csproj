@@ -217,53 +217,53 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MODEL\CHATLIEU.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>database.tt</DependentUpon>
     </Compile>
     <Compile Include="MODEL\CTHOADON.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>database.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MODEL\database.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>database.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MODEL\database.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>database.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MODEL\database.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>database.edmx</DependentUpon>
     </Compile>
     <Compile Include="MODEL\dataprovider.cs" />
     <Compile Include="MODEL\DONHANG.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>database.tt</DependentUpon>
     </Compile>
     <Compile Include="MODEL\KHACHHANG.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>database.tt</DependentUpon>
     </Compile>
     <Compile Include="MODEL\LOAISANPHAM.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MODEL\Model1.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MODEL\Model1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MODEL\Model1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.edmx</DependentUpon>
+      <DependentUpon>database.tt</DependentUpon>
     </Compile>
     <Compile Include="MODEL\NHACUNGCAP.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>database.tt</DependentUpon>
     </Compile>
     <Compile Include="MODEL\NHANVIEN.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>database.tt</DependentUpon>
     </Compile>
     <Compile Include="MODEL\NHAPHANG.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>database.tt</DependentUpon>
     </Compile>
     <Compile Include="MODEL\SANPHAM.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>database.tt</DependentUpon>
     </Compile>
     <Compile Include="MODEL\sysdiagram.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>database.tt</DependentUpon>
     </Compile>
     <Compile Include="MODEL\THONGTINTAIKHOAN.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>database.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -282,12 +282,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EntityDeploy Include="MODEL\Model1.edmx">
+    <EntityDeploy Include="MODEL\database.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+      <LastGenOutput>database.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="MODEL\Model1.edmx.diagram">
-      <DependentUpon>Model1.edmx</DependentUpon>
+    <None Include="MODEL\database.edmx.diagram">
+      <DependentUpon>database.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -305,15 +305,15 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MODEL\Model1.Context.tt">
+    <Content Include="MODEL\database.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Model1.edmx</DependentUpon>
-      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+      <DependentUpon>database.edmx</DependentUpon>
+      <LastGenOutput>database.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="MODEL\Model1.tt">
+    <Content Include="MODEL\database.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Model1.edmx</DependentUpon>
-      <LastGenOutput>Model1.cs</LastGenOutput>
+      <DependentUpon>database.edmx</DependentUpon>
+      <LastGenOutput>database.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

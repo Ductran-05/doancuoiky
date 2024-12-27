@@ -14,6 +14,43 @@ Background="White"
 FontFamily="{DynamicResource MaterialDesignFont}"
         mc:Ignorable="d"
         Title="HomeWindow" Height="450" Width="800">
+    <Window.Resources>
+
+        <Style x:Key="split" TargetType="DataGridCell">
+            <Setter Property="BorderBrush" Value="Gray" />
+            <Setter Property="BorderThickness" Value="0,0,1,0" />
+        </Style>
+        
+        <Style TargetType="RadioButton">
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="BorderBrush" Value="#FF3CA1F5"/>
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Foreground" Value="#FF717B8E"/>
+            <Setter Property="Margin" Value="0,0,0,0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="RadioButton">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#FFF1F1F6"/>
+                </Trigger>
+                <Trigger Property="IsChecked" Value="True">
+                    <Setter Property="Background" Value="#FF2D3645"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="BorderThickness" Value="3,0,0,0"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+    </Window.Resources>
     <Grid ShowGridLines="False">
         <!-- Define columns: Left (150px), Right (auto-expand) -->
         <Grid.ColumnDefinitions>
@@ -32,110 +69,88 @@ FontFamily="{DynamicResource MaterialDesignFont}"
 
         </StackPanel>
         <StackPanel Background="#FF192537" Grid.Column="0" Grid.Row="1">
-            <Button Height="30" HorizontalContentAlignment="Left" Padding="20,0,0,0" Foreground="White" Background="{x:Null}"  BorderThickness="0,0,0,0" FontFamily="Bahnschrift SemiLight Condensed" FontWeight="Bold" Click="Button_Click_6">
-                <Button.Content>
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <RadioButton Click="btnhomeclick">
+                <RadioButton.Content>
+                    <StackPanel Margin="20,0,0,0" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
                         <!-- Thêm icon -->
                         <materialDesign:PackIcon Kind="HomeOutline" />
                         <!-- Thêm text -->
                         <TextBlock Text="Trang chủ" VerticalAlignment="Center" Margin="5,0,0,0"/>
                     </StackPanel>
-                </Button.Content>
-            </Button>
-            <Button x:Name="sanpham" Height="30" HorizontalContentAlignment="Left" Padding="20,0,0,0" Foreground="White" Background="{x:Null}"  BorderThickness="0,0,0,0" FontFamily="Bahnschrift SemiLight Condensed" FontWeight="Bold" Click="Button_Click">
-                <Button.Content>
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                </RadioButton.Content>
+            </RadioButton>
+           
+            <RadioButton Click="btnproductclick">
+                <RadioButton.Content>
+                    <StackPanel Margin="20,0,0,0" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
                         <!-- Thêm icon -->
                         <materialDesign:PackIcon Kind="TshirtCrewOutline" />
                         <!-- Thêm text -->
                         <TextBlock Text="Sản phẩm" VerticalAlignment="Center" Margin="5,0,0,0"/>
                     </StackPanel>
-                </Button.Content>
-            </Button>
-
-            <Menu>
-                <MenuItem  Height="30" HorizontalContentAlignment="Left" Padding="20,0,0,0" Foreground="White" Background="{x:Null}"  BorderThickness="0,0,0,0" FontFamily="Bahnschrift SemiLight Condensed" FontWeight="Bold" Width="150">
-                    <MenuItem.Header>
-                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                            <!-- Thêm icon -->
-                            <materialDesign:PackIcon Kind="Store" />
-                            <!-- Thêm text -->
-                            <TextBlock Text="Kho hàng" VerticalAlignment="Center" Margin="5,0,0,0"/>
-                        </StackPanel>
-                    </MenuItem.Header>
-                    <MenuItem Background="#FF192537" Click="MenuItem_Click">
-                        <MenuItem.Header>
-                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                <!-- Thêm icon -->
-                                <materialDesign:PackIcon Kind="Warehouse" />
-                                <!-- Thêm text -->
-                                <TextBlock Text="Tồn kho" VerticalAlignment="Center" Margin="5,0,0,0"/>
-                            </StackPanel>
-                        </MenuItem.Header>
-                    </MenuItem>
-                    <MenuItem Background="#FF192537" Click="MenuItem_Click_1">
-                        <MenuItem.Header>
-                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                <!-- Thêm icon -->
-                                <materialDesign:PackIcon Kind="InvoiceImportOutline" />
-                                <!-- Thêm text -->
-                                <TextBlock Text="Hóa đơn nhập" VerticalAlignment="Center" Margin="5,0,0,0"/>
-                            </StackPanel>
-                        </MenuItem.Header>
-                    </MenuItem>
-                </MenuItem>
-            </Menu>
-            <Button Height="30" HorizontalContentAlignment="Left" Padding="20,0,0,0" Foreground="White" Background="{x:Null}"  BorderThickness="0,0,0,0" FontFamily="Bahnschrift SemiLight Condensed" FontWeight="Bold" Click="Button_Click_2">
-                <Button.Content>
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton Click="btnwarehouseclick">
+                <RadioButton.Content>
+                    <StackPanel Margin="20,0,0,0" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+                        <!-- Thêm icon -->
+                        <materialDesign:PackIcon Kind="Store" />
+                        <!-- Thêm text -->
+                        <TextBlock Text="Kho hàng" VerticalAlignment="Center" Margin="5,0,0,0"/>
+                    </StackPanel>
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton Click="btninvoiceclick">
+                <RadioButton.Content>
+                    <StackPanel Margin="20,0,0,0" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
                         <!-- Thêm icon -->
                         <materialDesign:PackIcon Kind="InvoiceTextMultipleOutline" />
                         <!-- Thêm text -->
                         <TextBlock Text="Đơn hàng" VerticalAlignment="Center" Margin="5,0,0,0"/>
                     </StackPanel>
-                </Button.Content>
-            </Button>
-            <Button Height="30" HorizontalContentAlignment="Left" Padding="20,0,0,0" Foreground="White" Background="{x:Null}"  BorderThickness="0,0,0,0" FontFamily="Bahnschrift SemiLight Condensed" FontWeight="Bold" Click="Button_Click_1">
-                <Button.Content>
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton Click="btncustomerclick">
+                <RadioButton.Content>
+                    <StackPanel Margin="20,0,0,0" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
                         <!-- Thêm icon -->
                         <materialDesign:PackIcon Kind="AccountSupervisor" />
                         <!-- Thêm text -->
                         <TextBlock Text="Khách hàng" VerticalAlignment="Center" Margin="5,0,0,0"/>
                     </StackPanel>
-                </Button.Content>
-            </Button>
-            <Button Height="30" HorizontalContentAlignment="Left" Padding="20,0,0,0" Foreground="White" Background="{x:Null}"  BorderThickness="0,0,0,0" FontFamily="Bahnschrift SemiLight Condensed" FontWeight="Bold" Click="Button_Click_3">
-                <Button.Content>
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton Click="btnproviderclick" >
+                <RadioButton.Content>
+                    <StackPanel Margin="20,0,0,0" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
                         <!-- Thêm icon -->
                         <materialDesign:PackIcon Kind="StorefrontOutline" />
                         <!-- Thêm text -->
                         <TextBlock Text="Nhà cung cấp" VerticalAlignment="Center" Margin="5,0,0,0"/>
                     </StackPanel>
-                </Button.Content>
-            </Button>
-            <Button Height="30" HorizontalContentAlignment="Left" Padding="20,0,0,0" Foreground="White" Background="{x:Null}"  BorderThickness="0,0,0,0" FontFamily="Bahnschrift SemiLight Condensed" FontWeight="Bold" Click="Button_Click_4">
-                <Button.Content>
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton Click="btnemployeeclick">
+                <RadioButton.Content>
+                    <StackPanel Margin="20,0,0,0" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
                         <!-- Thêm icon -->
                         <materialDesign:PackIcon Kind="AccountMultiple" />
                         <!-- Thêm text -->
                         <TextBlock Text="Nhân viên" VerticalAlignment="Center" Margin="5,0,0,0"/>
                     </StackPanel>
-                </Button.Content>
-            </Button>
-            <Button Height="30" HorizontalContentAlignment="Left" Padding="20,0,0,0" Foreground="White" Background="{x:Null}"  BorderThickness="0,0,0,0" FontFamily="Bahnschrift SemiLight Condensed" FontWeight="Bold" Click="Button_Click_5">
-                <Button.Content>
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton  Click="btnsaleclick">
+                <RadioButton.Content>
+                    <StackPanel Margin="20,0,0,0" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
                         <!-- Thêm icon -->
                         <materialDesign:PackIcon Kind="InvoiceTextArrowLeftOutline" />
                         <!-- Thêm text -->
                         <TextBlock Text="Báo cáo bán hàng" VerticalAlignment="Center" Margin="5,0,0,0"/>
                     </StackPanel>
-                </Button.Content>
-            </Button>
-            
+                </RadioButton.Content>
+            </RadioButton>
+        
         </StackPanel>
         <Grid Grid.Row="0" Grid.Column="1">
             <Separator VerticalAlignment="Bottom"/>

@@ -47,17 +47,19 @@ FontFamily="{DynamicResource MaterialDesignFont}"
                                     </StackPanel>
                                 </materialDesign:HintAssist.Hint>
                             </TextBox>
-                            <DataGrid Grid.Row="1"
-                            materialDesign:DataGridAssist.CellPadding="4 2 2 2"
-                            materialDesign:DataGridAssist.ColumnHeaderPadding="4 2 2 2"
-                            CanUserAddRows="False"
-                            CanUserSortColumns="False" Margin="10" >
-                                <DataGrid.Columns>
-                                    <DataGridCheckBoxColumn Header="cot thu nhat"/>
-                                    <DataGridCheckBoxColumn Header="cot thu hai"/>
+                            
+                            <DataGrid Grid.Row="1" ItemsSource="{Binding nhacungcaplist}" 
+AutoGenerateColumns="False" Margin="10"
+materialDesign:DataGridAssist.CellPadding="4 2 2 2"
+materialDesign:DataGridAssist.ColumnHeaderPadding="4 2 2 2">
+
+                                <DataGrid.Columns >
+                                    <DataGridTextColumn Header="Mã nhà cung cấp" Binding="{Binding MaNCC}" />
+                                    <DataGridTextColumn Header="Tên nhà cung cáp" Binding="{Binding TenNCC}" />
+                                    <DataGridTextColumn Header="Số điện thoại" Binding="{Binding SDT}" Width="*" />
                                 </DataGrid.Columns>
-                                <materialDesign:SplitButton/>
                             </DataGrid>
+                            
                         </Grid>
                     </TabItem>
                 </TabControl>
