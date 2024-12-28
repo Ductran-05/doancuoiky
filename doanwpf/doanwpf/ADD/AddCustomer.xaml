@@ -30,7 +30,7 @@ FontFamily="{DynamicResource MaterialDesignFont}"
                 <ScrollViewer >
                     <StackPanel Margin="40" Background="White">
                         
-                        <TextBox Margin="20,0,0,0" VerticalAlignment="Center"
+                        <TextBox Name="CustomerName" Margin="20,0,0,0" VerticalAlignment="Center"
              materialDesign:HintAssist.Hint="Tên khách hàng"      
              Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontSize="13" />
                         
@@ -40,15 +40,15 @@ FontFamily="{DynamicResource MaterialDesignFont}"
                         <RadioButton x:Name="rbNu" Content="Nữ" GroupName="Gender" FontSize="12" 
                          Margin="20,0,0,10" />
                         
-                        <TextBox Margin="20,0,0,0" VerticalAlignment="Center"
+                        <TextBox Name="Address" Margin="20,0,0,0" VerticalAlignment="Center"
 materialDesign:HintAssist.Hint="Địa chỉ"    
 Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontSize="13" />
                         
-                        <TextBox Margin="20,0,0,0" VerticalAlignment="Center"
+                        <TextBox Name="PhoneNum" Margin="20,0,0,0" VerticalAlignment="Center"
 materialDesign:HintAssist.Hint="Số điện thoại"      
 Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontSize="13" />
                         
-                        <DatePicker  HorizontalAlignment="Left" Margin="20,0,0,0"
+                        <DatePicker Name="Date" HorizontalAlignment="Left" Margin="20,0,0,0"
   Width="100"
   materialDesign:HintAssist.Hint="Ngày sinh"
   materialDesign:TextFieldAssist.HasClearButton="True"
@@ -64,7 +64,7 @@ Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontSize="13" />
     materialDesign:ButtonAssist.CornerRadius="25"
     IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
     Style="{StaticResource MaterialDesignRaisedDarkButton}"
-    ToolTip="MaterialDesignRaisedDarkButton with Round Corners">
+    ToolTip="MaterialDesignRaisedDarkButton with Round Corners" Click="Button_Click" >
                     <TextBlock
       Text="Thêm" />
                 </Button>

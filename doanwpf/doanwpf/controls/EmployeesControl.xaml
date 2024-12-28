@@ -43,7 +43,7 @@ FontFamily="{DynamicResource MaterialDesignFont}"
                                         <!-- Icon -->
                                         <materialDesign:PackIcon Kind="Magnify" />
                                         <!-- Context -->
-                                        <TextBlock Text="Tìm sản phẩm" VerticalAlignment="Center" />
+                                        <TextBlock Text="Tìm nhân viên" VerticalAlignment="Center" />
                                     </StackPanel>
                                 </materialDesign:HintAssist.Hint>
                             </TextBox>
