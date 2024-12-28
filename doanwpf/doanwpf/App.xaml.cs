@@ -15,6 +15,8 @@ namespace doanwpf
     /// </summary>
     public partial class App : Application
     {
+       public static string username {  get; set; }
+       public static string password {  get; set; }
        
     }
 }

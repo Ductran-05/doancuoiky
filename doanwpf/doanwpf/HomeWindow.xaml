@@ -161,7 +161,7 @@ materialDesign:MenuAssist.TopLevelMenuItemHeight="30">
                     <MenuItem.Header>
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="AccountCircle" Height="28" Width="26" />
-                            <TextBlock Text="Nguyen Van A" VerticalAlignment="Center"/>
+                            <TextBlock Text="{Binding SelectedAccount.Ten}" VerticalAlignment="Center"/>
                         </StackPanel>
                     </MenuItem.Header>
                     <MenuItem

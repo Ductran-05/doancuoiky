@@ -25,7 +25,6 @@ namespace doanwpf
         public MainWindow()
         {
             InitializeComponent();
-
         }
 
         private void Window_Closed(object sender, EventArgs e)
@@ -49,9 +48,9 @@ namespace doanwpf
         }
         private bool Login()
         {
-            string username = UsernameTextBox.Text;
-            string password = FloatingPasswordBox.Password;
-            var acc=dataprovider.Ins.DB.THONGTINTAIKHOANs.Where(p => p.TenDangNhap== username && p.Matkhau==password).Count();
+             App.username = UsernameTextBox.Text;
+             App.password = FloatingPasswordBox.Password;
+            var acc=dataprovider.Ins.DB.THONGTINTAIKHOANs.Where(p => p.TenDangNhap== App.username && p.Matkhau==App.password).Count();
             if(acc>0)
 
                 return true;

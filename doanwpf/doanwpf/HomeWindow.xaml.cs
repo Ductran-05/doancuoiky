@@ -1,4 +1,5 @@
-﻿using System;
+﻿using doanwpf.MODEL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,12 +21,25 @@ namespace doanwpf
     public partial class HomeWindow : Window
     {
         public bool islogin;
-
+        private THONGTINTAIKHOAN _selectedAccount;
+        public THONGTINTAIKHOAN SelectedAccount
+        {
+            get => _selectedAccount;
+            set { _selectedAccount = value; }
+        }
         public HomeWindow()
         {
             InitializeComponent();
+            loadthongtintaikhoandata();
+            DataContext = this;
         }
+        void loadthongtintaikhoandata()
+        {
+            SelectedAccount = dataprovider.Ins.DB.THONGTINTAIKHOANs
+            .FirstOrDefault(taikhoan => taikhoan.TenDangNhap == App.username && taikhoan.Matkhau == App.password);
 
+
+        }
         private void btnproductclick(object sender, RoutedEventArgs e)
         {
             ContenArea.Children.Add(new ProductsControl());
