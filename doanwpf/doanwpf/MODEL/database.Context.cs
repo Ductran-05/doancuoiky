@@ -13,10 +13,10 @@ namespace doanwpf.MODEL
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class database_doanEntities2 : DbContext
+    public partial class file_databaseEntities : DbContext
     {
-        public database_doanEntities2()
-            : base("name=database_doanEntities2")
+        public file_databaseEntities()
+            : base("name=file_databaseEntities")
         {
         }
     

@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\doancuoiky\doanwpf\doanwpf\obj\Debug\
+C:\Users\LE KHANG\OneDrive\Tài liệu\GitHub\doancuoiky\doanwpf\doanwpf\obj\Debug\
 doanwpf
 none
 false
 DEBUG;TRACE
-C:\doancuoiky\doanwpf\doanwpf\App.xaml
+C:\Users\LE KHANG\OneDrive\Tài liệu\GitHub\doancuoiky\doanwpf\doanwpf\App.xaml
 19-564813204
 2-1573797957
 38-1210956061
-221995266541
+22-153253303
 ADD\AddCustomer.xaml;ADD\AddEmployee.xaml;ADD\AddImportInvoice.xaml;ADD\AddInvoice.xaml;ADD\AddPrdInInvoice.xaml;ADD\AddProduct.xaml;ADD\AddProvider.xaml;controls\CustomerControl.xaml;controls\EmployeesControl.xaml;controls\HomeControl.xaml;controls\ImportInvoiceControl.xaml;controls\InvoiceControl.xaml;controls\ProductsControl.xaml;controls\ProviderControl.xaml;controls\SalesReportControl.xaml;controls\WarehouseControl.xaml;HomeWindow.xaml;InfoAccount.xaml;loginwindow.xaml;
 
 False
