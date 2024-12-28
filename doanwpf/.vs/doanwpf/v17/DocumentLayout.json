@@ -7,20 +7,24 @@
       "RelativeMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|solutionrelative:doanwpf\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|c:\\doancuoiky\\doanwpf\\doanwpf\\homewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|solutionrelative:doanwpf\\homewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|c:\\doancuoiky\\doanwpf\\doanwpf\\controls\\employeescontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|solutionrelative:doanwpf\\controls\\employeescontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|c:\\doancuoiky\\doanwpf\\doanwpf\\controls\\employeescontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|C:\\doancuoiky\\doanwpf\\doanwpf\\controls\\employeescontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|solutionrelative:doanwpf\\controls\\employeescontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|C:\\doancuoiky\\doanwpf\\doanwpf\\homewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|solutionrelative:doanwpf\\homewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|c:\\doancuoiky\\doanwpf\\doanwpf\\infoaccount.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|solutionrelative:doanwpf\\infoaccount.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|c:\\doancuoiky\\doanwpf\\doanwpf\\model\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|solutionrelative:doanwpf\\model\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|C:\\doancuoiky\\doanwpf\\doanwpf\\controls\\employeescontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|solutionrelative:doanwpf\\controls\\employeescontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{709FF9F1-C484-48FA-878E-6E0E7557B5EB}|doanwpf\\doanwpf.csproj|C:\\doancuoiky\\doanwpf\\doanwpf\\infoaccount.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 188,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,20 +62,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "dataprovider.cs",
+              "DocumentMoniker": "C:\\doancuoiky\\doanwpf\\doanwpf\\MODEL\\dataprovider.cs",
+              "RelativeDocumentMoniker": "doanwpf\\MODEL\\dataprovider.cs",
+              "ToolTip": "C:\\doancuoiky\\doanwpf\\doanwpf\\MODEL\\dataprovider.cs",
+              "RelativeToolTip": "doanwpf\\MODEL\\dataprovider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T07:30:48.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "EmployeesControl.xaml.cs",
               "DocumentMoniker": "C:\\doancuoiky\\doanwpf\\doanwpf\\controls\\EmployeesControl.xaml.cs",
               "RelativeDocumentMoniker": "doanwpf\\controls\\EmployeesControl.xaml.cs",
               "ToolTip": "C:\\doancuoiky\\doanwpf\\doanwpf\\controls\\EmployeesControl.xaml.cs",
               "RelativeToolTip": "doanwpf\\controls\\EmployeesControl.xaml.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAwCcAAAAfAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAxwCcAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-28T07:10:34.952Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "EmployeesControl.xaml",
               "DocumentMoniker": "C:\\doancuoiky\\doanwpf\\doanwpf\\controls\\EmployeesControl.xaml",
               "RelativeDocumentMoniker": "doanwpf\\controls\\EmployeesControl.xaml",
@@ -89,14 +106,14 @@
               "RelativeDocumentMoniker": "doanwpf\\App.config",
               "ToolTip": "C:\\doancuoiky\\doanwpf\\doanwpf\\App.config",
               "RelativeToolTip": "doanwpf\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAACNAQAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-12-28T07:03:04.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "HomeWindow.xaml.cs",
               "DocumentMoniker": "C:\\doancuoiky\\doanwpf\\doanwpf\\HomeWindow.xaml.cs",
               "RelativeDocumentMoniker": "doanwpf\\HomeWindow.xaml.cs",
@@ -108,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeWindow.xaml",
               "DocumentMoniker": "C:\\doancuoiky\\doanwpf\\doanwpf\\HomeWindow.xaml",
               "RelativeDocumentMoniker": "doanwpf\\HomeWindow.xaml",
@@ -141,28 +158,27 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "InfoAccount.xaml.cs",
               "DocumentMoniker": "C:\\doancuoiky\\doanwpf\\doanwpf\\InfoAccount.xaml.cs",
               "RelativeDocumentMoniker": "doanwpf\\InfoAccount.xaml.cs",
               "ToolTip": "C:\\doancuoiky\\doanwpf\\doanwpf\\InfoAccount.xaml.cs",
               "RelativeToolTip": "doanwpf\\InfoAccount.xaml.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAA0wDIAAAARAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAIwDIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T15:36:02.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "InfoAccount.xaml",
               "DocumentMoniker": "C:\\doancuoiky\\doanwpf\\doanwpf\\InfoAccount.xaml",
               "RelativeDocumentMoniker": "doanwpf\\InfoAccount.xaml",
               "ToolTip": "C:\\doancuoiky\\doanwpf\\doanwpf\\InfoAccount.xaml",
               "RelativeToolTip": "doanwpf\\InfoAccount.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-27T15:35:38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T15:35:38Z"
             }
           ]
         }
