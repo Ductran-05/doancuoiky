@@ -37,7 +37,7 @@ FontFamily="{DynamicResource MaterialDesignFont}"
                                 <RowDefinition/>
                             </Grid.RowDefinitions>
                             <TextBox Margin="10,0,0,0" Height="30" Width="150" VerticalAlignment="Top" HorizontalAlignment="Left"
-                        Style="{StaticResource MaterialDesignFloatingHintTextBox}">
+                        Style="{StaticResource MaterialDesignFloatingHintTextBox}" TextChanged="SearchBox_TextChanged">
                                 <materialDesign:HintAssist.Hint>
                                     <StackPanel Orientation="Horizontal" Width="140">
                                         <!-- Icon -->
@@ -47,19 +47,18 @@ FontFamily="{DynamicResource MaterialDesignFont}"
                                     </StackPanel>
                                 </materialDesign:HintAssist.Hint>
                             </TextBox>
-                            
-                            <DataGrid Grid.Row="1" ItemsSource="{Binding nhacungcaplist}" 
-AutoGenerateColumns="False" Margin="10"
+
+                            <DataGrid Grid.Row="1" ItemsSource="{Binding nhacungcaplist}" Margin="10"
 materialDesign:DataGridAssist.CellPadding="4 2 2 2"
-materialDesign:DataGridAssist.ColumnHeaderPadding="4 2 2 2">
+materialDesign:DataGridAssist.ColumnHeaderPadding="4 2 2 2" AutoGenerateColumns="False">
 
                                 <DataGrid.Columns >
-                                    <DataGridTextColumn Header="Mã nhà cung cấp" Binding="{Binding MaNCC}" />
-                                    <DataGridTextColumn Header="Tên nhà cung cáp" Binding="{Binding TenNCC}" />
+                                    <DataGridTextColumn Header="Mã nhà cung cấp" Binding="{Binding MaNCC}" MinWidth="30" Width="180" />
+                                    <DataGridTextColumn Header="Tên nhà cung cáp" Binding="{Binding TenNCC}" Width="300" />
                                     <DataGridTextColumn Header="Số điện thoại" Binding="{Binding SDT}" Width="*" />
                                 </DataGrid.Columns>
                             </DataGrid>
-                            
+
                         </Grid>
                     </TabItem>
                 </TabControl>

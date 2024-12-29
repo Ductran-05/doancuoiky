@@ -149,9 +149,9 @@ C:\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.g.resources
 C:\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.Properties.Resources.resources
 C:\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.csproj.GenerateResource.cache
 C:\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.csproj.CoreCompileInputs.cache
-C:\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.csproj.Up2Date
 C:\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.exe
 C:\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.pdb
+<<<<<<< HEAD
 C:\Users\LE KHANG\OneDrive\Tài liệu\GitHub\doancuoiky\doanwpf\doanwpf\bin\Debug\doanwpf.exe.config
 C:\Users\LE KHANG\OneDrive\Tài liệu\GitHub\doancuoiky\doanwpf\doanwpf\bin\Debug\doanwpf.exe
 C:\Users\LE KHANG\OneDrive\Tài liệu\GitHub\doancuoiky\doanwpf\doanwpf\bin\Debug\doanwpf.pdb
@@ -218,3 +218,7 @@ C:\Users\LE KHANG\OneDrive\Tài liệu\GitHub\doancuoiky\doanwpf\doanwpf\obj\D
 C:\Users\LE KHANG\OneDrive\Tài liệu\GitHub\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.csproj.Up2Date
 C:\Users\LE KHANG\OneDrive\Tài liệu\GitHub\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.exe
 C:\Users\LE KHANG\OneDrive\Tài liệu\GitHub\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.pdb
+=======
+C:\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.csproj.SuggestedBindingRedirects.cache
+C:\doancuoiky\doanwpf\doanwpf\obj\Debug\doanwpf.csproj.CopyComplete
+>>>>>>> a7d8cad (Initial commit)

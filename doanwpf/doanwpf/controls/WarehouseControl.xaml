@@ -16,8 +16,9 @@ FontFamily="{DynamicResource MaterialDesignFont}"
              d:DesignHeight="410" d:DesignWidth="650">
     <Grid Background="White">
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition Height="4*"/>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="65*"/>
+            <RowDefinition Height="99*"/>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0">
             <Label HorizontalAlignment="Left" Content="Warehouse" VerticalAlignment="Center" Margin="20,20,20,20"
@@ -25,7 +26,7 @@ FontFamily="{DynamicResource MaterialDesignFont}"
             <Button  Content="Thêm hóa đơn" Height="30" Width="150" Background="#FF192537"
 HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,5,20,5" Click="Button_Click"/>
         </Grid>
-        <Grid Grid.Row="1">
+        <Grid Grid.Row="1" Grid.RowSpan="2">
             <materialDesign:Card>
                 <TabControl HorizontalContentAlignment="Left">
                     <TabItem Margin="10,0,0,0" Header="Kho sản phẩm">
@@ -79,7 +80,7 @@ HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,5,20,5" Click="
                                     </StackPanel>
                                 </materialDesign:HintAssist.Hint>
                             </TextBox>
-                          
+
                             <DataGrid Grid.Row="1" ItemsSource="{Binding nhaphanglist}" 
 AutoGenerateColumns="False" Margin="10"
 materialDesign:DataGridAssist.CellPadding="4 2 2 2"
@@ -93,7 +94,7 @@ materialDesign:DataGridAssist.ColumnHeaderPadding="4 2 2 2">
                                     <DataGridTextColumn Header="Trị giá" Binding="{Binding Trigia}" Width="*" />
                                 </DataGrid.Columns>
                             </DataGrid>
-                            
+
                         </Grid>
                     </TabItem>
                 </TabControl>

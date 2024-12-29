@@ -13,10 +13,17 @@ namespace doanwpf.MODEL
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
+<<<<<<< HEAD
     public partial class file_databaseEntities : DbContext
     {
         public file_databaseEntities()
             : base("name=file_databaseEntities")
+=======
+    public partial class file_databaseEntities1 : DbContext
+    {
+        public file_databaseEntities1()
+            : base("name=file_databaseEntities1")
+>>>>>>> a7d8cad (Initial commit)
         {
         }
     
